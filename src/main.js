@@ -12,4 +12,5 @@ app.use(VuelidatePlugin)
 app.use(router)
 
 
+
 app.mount('#app')
