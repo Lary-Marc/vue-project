@@ -7,5 +7,4 @@
           Looking for Product: {{ this.$route.params.id }}
       </span>
 </div>
-      
     </template>

@@ -11,7 +11,6 @@
             <div class="form-field">
               <label>Surname <span class="required">*</span></label>
               <input name="surname" id="surname" v-model.trim="test.surname" />
-
               <small
                 class="error"
                 v-for="(error, index) of v$.test.surname.$errors"
