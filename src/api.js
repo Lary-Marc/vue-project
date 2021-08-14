@@ -1,7 +1,6 @@
 import axios from 'axios';
 const url = "/api/test";
 
-
 export default class API {
   //to get all the posts from the server
   static async getAllTest() {
@@ -18,7 +17,7 @@ export default class API {
     const res = await axios.post(url, test);
     return res.data;
   }
-  
+
   //to update post into database
 //   static async updatePost(id, post) {
 //     const res = await axios.patch(`${url}/${id}`, post);

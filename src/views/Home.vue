@@ -1,5 +1,6 @@
 <template>
   <div class="body">
+    
     <div class="b_image"></div>
     <form class="container-fluid" @submit.prevent="onSubmit" method="POST">
       <div class="col-lg-10 offset-md-1" style="height:auto;">

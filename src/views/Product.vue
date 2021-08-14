@@ -1,5 +1,6 @@
 <template>
 <div>
+    
     <div>
         Product Page
       </div>

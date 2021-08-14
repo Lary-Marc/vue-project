@@ -1,5 +1,4 @@
 <template>
-
 <div>
       <div class="home">
         Profile Info
